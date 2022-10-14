@@ -30,10 +30,10 @@
 
 4、输入相关信息
 
-![image-20221011233441750](https://a-image.1ove.club/image/2022/10/65505813890b20e80b29d840d89df9d5.png)
+![image-20221011233441750](https://a-image.1ove.club/image/2022/10/28d725dfd6e43a83fb777bdc2cbf96e3.png)
 
 5、看看效果
 
 打不开或者出现异常的，我都会算作是无效书源，所以等待时间设置的时候要慎重一点。
 
-![image-20221011233704894](https://a-image.1ove.club/image/2022/10/d8dd9dec21698e72dd0fab0bf8d00f95.png)
+![image-20221011233704894](https://a-image.1ove.club/image/2022/10/28a965b50d05b38ad26cee720fc78e5b.png)
