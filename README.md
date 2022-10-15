@@ -8,7 +8,7 @@
 
 * Telegram频道：[1OVE CLUB Channel - 1OVE导航](https://www.1ove.club/archives/club_1ove.html)
 
-  Telegram讨论群：(Peace & 1OVE)[https://t.me/Chat_1OVE]
+  Telegram讨论群：[Peace & 1OVE](https://t.me/Chat_1OVE)
 
 ## 引言
 
