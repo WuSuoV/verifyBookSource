@@ -2,6 +2,14 @@
 
 阅读书源校验工具
 
+## 交流
+
+* QQ频道：[QQ频道 - 1OVE导航](https://www.1ove.club/archives/qq_pindao.html)
+
+* Telegram频道：[1OVE CLUB Channel - 1OVE导航](https://www.1ove.club/archives/club_1ove.html)
+
+  Telegram讨论群：[https://t.me/Chat_1OVE
+
 ## 引言
 
 * 怎么没有源码？
