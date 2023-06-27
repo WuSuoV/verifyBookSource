@@ -1,47 +1,50 @@
-# verifyBookSource
+# VerifyBookSource
 
-阅读书源校验工具
+阅读书源校验工具v2
 
-## 交流
+## 项目
 
-* QQ频道：[QQ频道 - 1OVE导航](https://www.1ove.club/archives/qq_pindao.html)
+运行要求：
 
-* Telegram频道：[1OVE CLUB Channel - 1OVE导航](https://www.1ove.club/archives/club_1ove.html)
+我用的是Python3.10
 
-  Telegram讨论群：[Peace & 1OVE](https://t.me/Chat_1OVE)
+其他版本应该也没有问题，我并没有使用一些很新的语法。
 
-## 引言
+原理：
 
-* 怎么没有源码？
+其实是检验书源的网址能不能打开，至于其搜索能不能返回正确结果，还没有去实现。
 
-  源码写的有点烂，不好意思分享出来献丑。
+## 功能
 
-* 后期会更新吗？
+1. 自定义运行线程：线程越多就越快，但也不介意太多，容易将有效书源判断为无效书源。
+2. 文件支持本地文件和文件直链
+3. 支持重复书源去重
+4. 自定义输出文件路径
 
-  功能很简单，嗯……说是简陋也可以。至于后期会不会进行优化，看需求吧，如果用的人多，自然就会多优化优化。
+运行效果：
 
-* 查看更多：[阅读书源校验工具 - 勿埋我心 (qian.blue)](https://www.qian.blue/archives/verifyBookSource.html)
+```sh
+D:\Users\SkyQian\Documents\GitHub\verifyBookSource\dist# app.exe
+欢迎使用书源校验工具（VerifyBookSource v2.0）
+作者：勿埋我心 - SkyQian
+Github：https://github.com/Qiantigers/verifyBookSource
+我的博客：https://www.skyqian.com
+----------------
+是否使用config.json文件？（不使用则通过命令行输入配置）（y/n）n
+本地文件路径/文件直链URL：https://xiao.ml/shuyuan/7
+书源输出路径（为空则为当前目录，目录最后带斜杠）：
+请输入工作线程，填写数字（并不是越大越好）：64
+是否去重？（y/n）y
+----------------
+检验进度：
+[####################]100.00%
+----------------
+成果报表
+书源总数：1444
+有效书源数：736
+无效书源数：708
+重复书源数：0
+耗时：43.06秒
 
-## 如何使用
-
-1、下载exe
-
-下载地址：[Releases · Qiantigers/verifyBookSource (github.com)](https://github.com/Qiantigers/verifyBookSource/releases)
-
-2、直接双击即可
-
-![image-20221011233209201](https://a-image.1ove.club/image/2022/10/515eaf2ab43440197aa58d5826687562.png)
-
-3、此时浏览器应该会自己打开
-
-如果未自动打开，可以手动输入`http://127.0.0.1:9980/`
-
-4、输入相关信息
-
-![image-20221011233441750](https://a-image.1ove.club/image/2022/10/28d725dfd6e43a83fb777bdc2cbf96e3.png)
-
-5、看看效果
-
-打不开或者出现异常的，我都会算作是无效书源，所以等待时间设置的时候要慎重一点。
-
-![image-20221011233704894](https://a-image.1ove.club/image/2022/10/28a965b50d05b38ad26cee720fc78e5b.png)
+输入任意键退出……
+```
